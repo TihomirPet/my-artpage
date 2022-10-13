@@ -1,0 +1,36 @@
+
+     {
+    "art":[
+      {
+        "id": "1",
+        "title": "Test",
+        "details": "some detail about Bruno's Car",
+        "img":"/images/_DSC6058_1.png"
+      },
+      {
+        "id": "2",
+        "title": "Test",
+        "details": "some detail about Bruno's Bike",
+        "img": "/images/_DSC6059.png"
+      },
+      {
+        "id": "3",
+        "title": "Test",
+        "details": "some detail bile",
+        "img": "/images/_DSC6077.JPG"
+      },
+      {
+        "id": "4",
+        "title": "Test",
+        "details": "some detail Bill Gates",
+        "img": "/images/_DSC6058_1.png"
+      } ,
+      {
+        "id": "5",
+        "title": "Test",
+        "details": "some detail Elon",
+        "img": "/images/_DSC6058_1.png"
+      }      
+    ]
+  }
+  
