@@ -1,0 +1,240 @@
+
+
+
+.loader {
+
+  // border: 1px solid red !important;
+
+  overflow: hidden;
+  position:absolute;
+  top: 0;
+  height: 106vh;
+  width: 100%;
+  // background-image: url('../../public/images/Frame\ _4.jpg');
+
+  //   background-repeat: no-repeat;
+  //   background-size: 110vw auto;
+z-index: 1;
+
+
+
+
+
+
+
+ .loader-overlay {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+ 
+    // border: solid 3px rgb(11, 247, 66);
+  }
+
+  .loader-left{
+      height: 60vh;
+    width: 70%;
+  }
+  .loader-placeholder{
+         height: 13vh;
+    width: 25%;
+  }
+   .font-loader-title{
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight:300;
+    font-size: 3.5vw;
+    color: rgb(225, 208, 223);
+    letter-spacing: 1.7vw;
+
+ }
+}
+ 
+ 
+  .x-1 {
+
+    top: 0;
+        left: 0;
+    //  border: 1px solid black;
+    // background-color: rgb(74, 177, 203);
+    height: 100%;
+    width: 10%;
+
+  }
+  .x-2 {
+
+    top: 0;
+    left: 0%;
+    // background-color: rgb(74, 177, 203);
+    // border: 1px solid black;
+    height: 100%;
+    width: 10%;
+
+  }
+  .x-3 {
+  
+    top: 0;
+    left: 20%;
+    // background-color: rgb(74, 177, 203);
+    // border: 1px solid black;
+    height: 100%;
+    width: 10%;
+  
+  }
+  .x-4 {
+ 
+    top: 0;
+    left: 30%;
+    // background-color: rgb(74, 177, 203);
+    // border: 1px solid black;
+    height: 100%;
+    width: 10%;
+   
+  }
+  .x-5 {
+  
+    top: 0;
+    left: 40%;
+    // background-color: rgb(74, 177, 203);
+    // border: 1px solid black;
+    height: 100%;
+    width: 10%;
+  
+  }
+  .x-6 {
+ 
+    top: 0;
+    left: 50%;
+    // background-color: rgb(74, 177, 203);
+    // border: 1px solid black;
+
+    height: 100%;
+    width: 10%;
+  
+  }
+  .x-7 {
+   
+    top: 0;
+    left: 59.9%;
+    // background-color: rgb(74, 177, 203);
+    // border: 1px solid black;
+    height: 100%;
+    width: 10%;
+  
+  }
+  .x-8 {
+  
+    top: 0;
+    left: 69.9%;
+    // background-color: rgb(74, 177, 203);
+    // border: 1px solid black;
+    height: 100%;
+    width: 10%;
+   
+  }
+  .x-9 {
+ 
+    top: 0;
+    left: 79.9%;
+    // background-color: rgb(74, 177, 203);
+    // border: 1px solid black;
+    height: 100%;
+    width: 10%;
+
+  }
+  .x-10 {
+  
+    top: 0;
+    left: 90%;
+    // background-color: rgb(74, 177, 203);
+    // border: 1px solid black;
+    height: 100%;
+    width: 10%;
+   
+  }
+
+
+
+   .v-1 {
+     background-image: url('../../public/images/Frame\ _B1.jpg');
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 111vw auto;
+    background-position: -11vw -22vh;
+  
+  }
+  .v-2 {
+    background-image: url('../../public/images/Frame\ _B1.jpg');
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 111vw auto;
+    background-position: -21vw -22vh;
+  }
+  .v-3 {
+    background-image: url('../../public/images/Frame\ _B1.jpg');
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 111vw auto;
+    background-position: -31vw -22vh;
+  }
+  .v-4 {
+    background-image: url('../../public/images/Frame\ _B1.jpg');
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 111vw auto;
+    background-position: -41vw -22vh;
+   
+  }
+  .v-5 {
+      background-image: url('../../public/images/Frame\ _B1.jpg');
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 111vw auto;
+    background-position: -51vw -22vh;
+  }
+  .v-6 {
+    background-image: url('../../public/images/Frame\ _B1.jpg');
+    height: 100%;
+    background-repeat: no-repeat;
+     background-size: 111vw auto;
+    background-position: -61vw -22vh;
+  }
+  .v-7 {
+    background-image: url('../../public/images/Frame\ _B1.jpg');
+    height: 100%;
+    background-repeat: no-repeat;
+      background-size: 120vw auto;
+          background-size: 111vw auto;
+    background-position: -71vw -22vh;
+  }
+  .v-8 {
+      background-image: url('../../public/images/Frame\ _B1.jpg');
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 111vw auto;
+    
+    background-position: -81vw -22vh;
+  }
+  .v-9 {
+       background-image: url('../../public/images/Frame\ _B1.jpg');
+    height: 100%;
+    background-repeat: no-repeat;
+     background-size: 111vw auto;
+  
+    background-position: -91vw -22vh;
+  }
+  .v-10 {
+       background-image: url('../../public/images/Frame\ _B1.jpg');
+    height: 100%;
+    background-repeat: no-repeat;
+     background-size: 111vw auto;
+      
+    background-position: -100.99vw -22vh;
+  }
+
+
+
+
+

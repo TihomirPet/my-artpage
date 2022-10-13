@@ -1,0 +1,258 @@
+
+@font-face {font-family: "Crystal Sky"; src: url("//db.onlinewebfonts.com/t/8af97cecee46cf941adf95ac77ce2ad0.eot"); src: url("//db.onlinewebfonts.com/t/8af97cecee46cf941adf95ac77ce2ad0.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/8af97cecee46cf941adf95ac77ce2ad0.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/8af97cecee46cf941adf95ac77ce2ad0.woff") format("woff"), url("//db.onlinewebfonts.com/t/8af97cecee46cf941adf95ac77ce2ad0.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/8af97cecee46cf941adf95ac77ce2ad0.svg#") format("svg"); } 
+
+.viewport {
+
+  // border: 1px solid red !important;
+  height: 106vh;
+  overflow: hidden;
+  position: relative;
+  // background-image: url('../../public/images/Frame\ _B.jpg');
+
+  // background-repeat: no-repeat;
+  //   background-size: 111vw auto;
+  //   background-position: -11vw -22vh;
+
+  .viewport-overlay {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+ 
+    // border: solid 3px rgb(11, 247, 66);
+    // z-index: 1;
+  }
+
+  .viewport-left{
+      height: 60vh;
+    width: 70%;
+  }
+  .viewport-placeholder{
+         height: 13vh;
+    width: 25%;
+  }
+ .font-viewport-title{
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight:300;
+    font-size: 3.5vw;
+    // color: rgb(58, 40, 56);
+    letter-spacing: 1.7vw;
+
+
+    color: #923E00;
+// background: #bababa;
+text-shadow: #e0e0e0 1px 1px 0;
+// color: #8d721a;
+// color: #923E00;
+color: #24011c;
+
+// background: #bababa;
+ }
+  .wrapbox-1 {
+    position: sticky;
+    top: 0;
+        left: 0;
+    // border: 1px solid black;
+    // background-color: rgb(74, 177, 203);
+    height: 100%;
+    width: 0%;
+    transform: scaleX(0);
+  }
+  .wrapbox-2 {
+    position: sticky;
+    top: 0;
+    left: 10%;
+    // background-color: rgb(74, 177, 203);
+    // border: 1px solid black;
+    height: 100%;
+    width: 100%;
+    transform: scaleX(0);
+  }
+  .wrapbox-3 {
+    position: sticky;
+    top: 0;
+    left: 20%;
+    // background-color: rgb(74, 177, 203);
+    // border: 1px solid black;
+    height: 100%;
+    width: 0%;
+    transform: scaleX(0);
+  }
+  .wrapbox-4 {
+    position: sticky;
+    top: 0;
+    left: 30%;
+    // background-color: rgb(74, 177, 203);
+    // border: 1px solid black;
+    height: 100%;
+    width: 0%;
+    transform: scaleX(0);
+  }
+  .wrapbox-5 {
+    position: sticky;
+    top: 0;
+    left: 40%;
+    // background-color: rgb(74, 177, 203);
+    // border: 1px solid black;
+    height: 100%;
+    width: 0%;
+    transform: scaleX(0);
+  }
+  .wrapbox-6 {
+    position: sticky;
+    top: 0;
+    left: 50%;
+    // background-color: rgb(74, 177, 203);
+    // border: 1px solid black;
+
+    height: 100%;
+    width: 0%;
+    transform: scaleX(0);
+  }
+  .wrapbox-7 {
+    position: sticky;
+    top: 0;
+    left: 59.9%;
+    // background-color: rgb(74, 177, 203);
+    // border: 1px solid black;
+    height: 100%;
+    width: 0%;
+    transform: scaleX(0);
+  }
+  .wrapbox-8 {
+    position: sticky;
+    top: 0;
+    left: 69.9%;
+    // background-color: rgb(74, 177, 203);
+    // border: 1px solid black;
+    height: 100%;
+    width: 0%;
+    transform: scaleX(0);
+  }
+  .wrapbox-9 {
+    position: sticky;
+    top: 0;
+    left: 79.9%;
+    // background-color: rgb(74, 177, 203);
+    // border: 1px solid black;
+    height: 100%;
+    width: 0%;
+    transform: scaleX(0);
+  }
+  .wrapbox-10 {
+    position: sticky;
+    top: 0;
+    left: 90%;
+    // background-color: rgb(74, 177, 203);
+    // border: 1px solid black;
+    height: 100%;
+    width: 0%;
+    transform: scaleX(0);
+  }
+
+
+
+   .viewportbox-1 {
+     background-image: url('../../public/images/Frame\ _3A.jpg');
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 111vw auto;
+    background-position: -11vw -22vh;
+  }
+  .viewportbox-2 {
+    background-image: url('../../public/images/Frame\ _3A.jpg');
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 111vw auto;
+    background-position: -21vw -22vh;
+  }
+  .viewportbox-3 {
+    background-image: url('../../public/images/Frame\ _3A.jpg');
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 111vw auto;
+    background-position: -31vw -22vh;
+  }
+  .viewportbox-4 {
+    background-image: url('../../public/images/Frame\ _3A.jpg');
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 111vw auto;
+    background-position: -41vw -22vh;
+  }
+  .viewportbox-5 {
+      background-image: url('../../public/images/Frame\ _3A.jpg');
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 111vw auto;
+    background-position: -51vw -22vh;
+  }
+  .viewportbox-6 {
+    background-image: url('../../public/images/Frame\ _3A.jpg');
+    height: 100%;
+    background-repeat: no-repeat;
+     background-size: 111vw auto;
+    background-position: -61vw -22vh;
+  }
+  .viewportbox-7 {
+    background-image: url('../../public/images/Frame\ _3A.jpg');
+    height: 100%;
+    background-repeat: no-repeat;
+      background-size: 120vw auto;
+          background-size: 111vw auto;
+    background-position: -71vw -22vh;
+  }
+  .viewportbox-8 {
+    background-image: url('../../public/images/Frame\ _3A.jpg');
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 111vw auto;
+    
+    background-position: -81vw -22vh;
+  }
+  .viewportbox-9 {
+      background-image: url('../../public/images/Frame\ _3A.jpg');
+    height: 100%;
+    background-repeat: no-repeat;
+     background-size: 111vw auto;
+  
+    background-position: -91vw -22vh;
+  }
+  .viewportbox-10 {
+     background-image: url('../../public/images/Frame\ _3A.jpg');
+    height: 100%;
+    background-repeat: no-repeat;
+     background-size: 111vw auto;
+      
+    background-position: -100.99vw -22vh;
+  }
+
+  // .viewport-left {
+  //   background-image: url('../../public/images/alice-donovan-rouse-yu68fUQDvOI-unsplash.jpg');
+  //   height: 100%;
+  //   background-repeat: no-repeat;
+  //   background-size: 110vw auto;
+  //   background-position: 0vw -30vh;
+  // }
+  // .viewport-middle {
+  //   background-image: url('../../public/images/alice-donovan-rouse-yu68fUQDvOI-unsplash.jpg');
+  //   height: 100%;
+  //   background-repeat: no-repeat;
+  //   background-size: 110vw auto;
+  //   background-position: -30vw -30vh;
+  // }
+  // .viewport-right {
+  //   background-image: url('../../public/images/alice-donovan-rouse-yu68fUQDvOI-unsplash.jpg');
+  //   height: 100%;
+  //   background-repeat: no-repeat;
+  //   background-size: cover;
+  //   background-size: 110vw auto;
+  //   background-position: -75.5vw -30vh;
+  // }
+}
+
+
+
