@@ -1,7 +1,7 @@
 // import React from 'react';
 
 // export async function getStaticPaths() {
-//   const response = await fetch(`${window.location.origin}/art/`);
+//   const response = await fetch(`http://localhost:4001/art/`);
 
 //   const data = await response.json();
 
@@ -22,7 +22,7 @@
 // export async function getStaticProps(context) {
 
 // const id =context.params.id
-//  const response = await fetch(`${window.location.origin}/art/${id}`);
+//  const response = await fetch(`http://localhost:4001/art/${id}`);
 // const data = await response.json();
 
 // return {

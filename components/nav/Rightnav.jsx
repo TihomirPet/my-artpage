@@ -110,25 +110,25 @@ export default function Rightnav({ open }) {
           className='internal-nav-links list-unstyled  d-flex flex-column justify-content-around '
           ref={(el) => (revielMenuBack = el)}>
           <li className='box' ref={(el) => (revielMenuLink.current[0] = el)}>
-            <img src='images/Frame_Hover.jpg' width={400} />
-            <Link href='/about'>
+            <img src='/images/Frame_Hover.jpg' width={400} />
+            <Link href='/'>
               <a>Start</a>
             </Link>
           </li>
           <li className='box' ref={(el) => (revielMenuLink.current[1] = el)}>
-            <img src='images/Frame_Hover.jpg' width={400} />
+            <img src='/images/Frame_Hover.jpg' width={400} />
             <Link href='/about'>
               <a>Bilder</a>
             </Link>
           </li>
           <li className='box' ref={(el) => (revielMenuLink.current[2] = el)}>
-            <img src='images/Frame_Hover.jpg' width={400} />
+            <img src='/images/Frame_Hover.jpg' width={400} />
             <Link href='/about'>
               <a>News</a>
             </Link>
           </li>
           <li className='box' ref={(el) => (revielMenuLink.current[3] = el)}>
-            <img src='images/Frame_Hover.jpg' width={400} />
+            <img src='/images/Frame_Hover.jpg' width={400} />
             <Link href='/about'>
               <a>Standorte</a>
             </Link>

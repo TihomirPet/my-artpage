@@ -13,27 +13,27 @@ export default function Maincontent({ carousel }) {
   //***************************************************************************
 
   useEffect(() => {
-    let lt = gsap
-      .timeline()
-      .fromTo(
-        [main.current],
-        { z: 0, opacity: 0, delay: 0, duration: 0.1 },
-        { z: 0, opacity: 1, stagger: 1, delay: 0, duration: 0.1 }
-      );
+    // let lt = gsap
+    //   .timeline()
+    //   .fromTo(
+    //     [main.current],
+    //     { z: 0, opacity: 0, delay: 0, duration: 0.1 },
+    //     { z: 0, opacity: 1, stagger: 1, delay: 0, duration: 0.1 }
+    //   );
 
-    ScrollTrigger.create({
-      trigger: '#scrollpin',
-      start: 'top top',
-      end: '+=200%',
-      scrub: true,
-      pin: true,
-      markers: true,
-      animation: lt,
-      anticipatePin: 1,
-      id: 'main',
-    });
+    // ScrollTrigger.create({
+    //   trigger: '#scrollpin',
+    //   start: 'top top',
+    //   end: '+=200%',
+    //   scrub: true,
+    //   pin: true,
+    //   markers: true,
+    //   animation: lt,
+    //   anticipatePin: 1,
+    //   id: 'main',
+    // });
 
-      return () => lt.scrollTrigger.kill();
+    //   return () => lt.scrollTrigger.kill();
   }, []);
 
 

@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 // import Footer from '../components/footer/Footer';
-// import Gallery from '../components/gallery/Gallery';
+import Gallery from '../components/gallery/Gallery';
 
 import Viewport from '../components/header/Viewport';
 import Layout from '../components/Layout';
@@ -101,7 +101,8 @@ export default function Home({ content }) {
 
   // ******************************************************************
   return (
-    <>
+    <div>
+   
       {/* {preloader ? ( */}
       {/* ) :  ( */}
       <Loader load={load} title={title}></Loader>
@@ -113,6 +114,6 @@ export default function Home({ content }) {
         {/* <Gallery content={content} /> */}
       </Layout>
       {/* )} */}
-    </>
+    </div>
   );
 }
