@@ -13,27 +13,34 @@ export default function Maincontent({ carousel }) {
   //***************************************************************************
 
   useEffect(() => {
-    // let lt = gsap
-    //   .timeline()
-    //   .fromTo(
-    //     [main.current],
-    //     { z: 0, opacity: 0, delay: 0, duration: 0.1 },
-    //     { z: 0, opacity: 1, stagger: 1, delay: 0, duration: 0.1 }
-    //   );
+    let lt = gsap
+      .timeline()
+      .fromTo(
+        [main.current],
+        { z: 0, opacity: 0, delay: 0,},
+        {
+          z: 0,
+          opacity: 1,
+          stagger: 1,
+          delay: 0,
+          duration: 0.1,
+       
+        }
+      );
 
-    // ScrollTrigger.create({
-    //   trigger: '#scrollpin',
-    //   start: 'top top',
-    //   end: '+=200%',
-    //   scrub: true,
-    //   pin: true,
-    //   markers: true,
-    //   animation: lt,
-    //   anticipatePin: 1,
-    //   id: 'main',
-    // });
+    ScrollTrigger.create({
+      trigger: '#scrollpin',
+      start: 'top 1',
+      end: '+=200%',
+      scrub: true,
+      pin: true,
+      // markers: true,
+      animation: lt,
+       anticipatePin: 1,
+      // id: 'main',
+    });
 
-    //   return () => lt.scrollTrigger.kill();
+      return () => lt.scrollTrigger.kill();
   }, []);
 
 
@@ -41,32 +48,28 @@ export default function Maincontent({ carousel }) {
 
   //***************************************************************************
   return (
-    <div className='d-flex justify-content-center  mainWrapper ' id='scrollpin'>
-      {/* <div className='itemA border ' ref={(el) => (main.current[0] = el)}>
-        <div className='itemB border ' ref={(el) => (main.current[1] = el)}>
-          <div className='itemC border ' ref={(el) => (main.current[2] = el)}>
-            <div className='itemD border ' ref={(el) => (main.current[3] = el)}>
-              <div
-                className='itemE border '
-                ref={(el) => (main.current[4] = el)}>
-                <div
-                  className='itemF border '
-                  ref={(el) => (main.current[5] = el)}>
-               
-                  <div
-                    className='itemG border '
-                    ref={(el) => (main.current[6] = el)}></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> */}
-
+    <div className='d-flex justi  mainWrapper ' id='scrollpin'>
+      <div className='col-3 main-text-holder d-flex flex-column ps-5 pt-5 pe-3'>
+        <h2 className='font-main-title'>Test</h2>
+        <p className='font-main-text  p-2'>
+          Damit Ihr indess erkennt, woher dieser ganze Irrthum gekommen ist, und
+          weshalb man die Lust anklagt und den Schmerz lobet, so will ich Euch
+          Alles eröffnen und auseinander setzen, was jener Begründer der
+          Wahrheit und gleichsam Baumeister des glücklichen Lebens selbst
+          darüber gesagt hat. Niemand, sagt er, verschmähe, oder hasse, oder
+          fliehe die Lust als solche, sondern weil grosse Schmerzen ihr folgen,
+          wenn man nicht mit Vernunft ihr nachzugehen verstehe. Ebenso werde der
+          Schmerz als solcher von Niemand geliebt, gesucht und verlangt, sondern
+          weil mitunter solche Zeiten eintreten, dass man mittelst Arbeiten und
+          Schmerzen eine grosse Lust sich zu verschaften suchen müsse.
+        </p>
+        <div className=' main-holder'></div>
+      </div>
+      <div className='main-papier'></div>
       {carousel.map((elements, i) => (
         <div
           key={elements.id}
-          className='mainHolderImg d-flex justify-content-center '
+          className='mainHolderImg'
           ref={(el) => (main.current[i] = el)}>
           <img
             src={elements.src}

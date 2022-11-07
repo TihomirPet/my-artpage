@@ -1,33 +1,14 @@
 import React, { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 
-export default function Loader({ load, title }) {
+export default function Loader({load}) {
+
+
+
+  
+
   return (
     <div className='loader d-flex '>
-      <div
-        className='loader-overlay  d-flex align-items-center '
-        // ref={(el) => (patOne = el)}
-      >
-        <div className='loader-left   d-flex flex-column align-items-center '>
-          <h1
-            className='font-loader-title  text-center w-75 text-uppercase testAnimate'
-            ref={(el) => (title.current[0] = el)}
-
-            // onMouseOver={onMouseOverHandler}
-          >
-            Tihomir
-          </h1>
-          <div className='  w-75 d-flex  justify-content-center '>
-            <h1
-              className='font-loader-title   text-uppercase'
-              ref={(el) => (title.current[1] = el)}>
-              Petrov
-            </h1>
-            <div className='loader-placeholder  '></div>
-          </div>
-        </div>
-      </div>
-
       <div className='x-1' ref={(el) => (load.current[0] = el)}>
         <div className='v-1'></div>
       </div>

@@ -1,86 +1,148 @@
 /* karla-regular - latin */
 @font-face {
-  font-family: "Karla";
+  font-family: 'Karla';
   font-style: normal;
   font-weight: 400;
-  src: local(""), url("/fonts/karla-v13-latin-regular.woff2") format("woff2"),
+  src: local(''), url('/fonts/karla-v13-latin-regular.woff2') format('woff2'),
     /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("/fonts/karla-v13-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+      url('/fonts/karla-v13-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 /* karla-italic - latin */
 @font-face {
-  font-family: "Karla";
+  font-family: 'Karla';
   font-style: italic;
   font-weight: 400;
-  src: local(""), url("/fonts/karla-v13-latin-italic.woff2") format("woff2"),
+  src: local(''), url('/fonts/karla-v13-latin-italic.woff2') format('woff2'),
     /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("/fonts/karla-v13-latin-italic.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+      url('/fonts/karla-v13-latin-italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 /* karla-700 - latin */
 @font-face {
-  font-family: "Karla";
+  font-family: 'Karla';
   font-style: normal;
   font-weight: 700;
-  src: local(""), url("/fonts/karla-v13-latin-700.woff2") format("woff2"),
+  src: local(''), url('/fonts/karla-v13-latin-700.woff2') format('woff2'),
     /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("/fonts/karla-v13-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+      url('/fonts/karla-v13-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 /* karla-700italic - latin */
 @font-face {
-  font-family: "Karla";
+  font-family: 'Karla';
   font-style: italic;
   font-weight: 700;
-  src: local(""), url("/fonts/karla-v13-latin-700italic.woff2") format("woff2"),
+  src: local(''), url('/fonts/karla-v13-latin-700italic.woff2') format('woff2'),
     /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("/fonts/karla-v13-latin-700italic.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+      url('/fonts/karla-v13-latin-700italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 /* rubik-mono-one-regular - latin */
 @font-face {
-  font-family: "Rubik Mono One";
+  font-family: 'Rubik Mono One';
   font-style: normal;
   font-weight: 400;
-  src: local(""),
-    url("/fonts/rubik-mono-one-v9-latin-regular.woff2") format("woff2"),
+  src: local(''),
+    url('/fonts/rubik-mono-one-v9-latin-regular.woff2') format('woff2'),
     /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("/fonts/rubik-mono-one-v9-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+      url('/fonts/rubik-mono-one-v9-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 /* rubik-regular - latin */
 @font-face {
-  font-family: "Rubik";
+  font-family: 'Rubik';
   font-style: normal;
   font-weight: 400;
-  src: local(""), url("/fonts/rubik-v11-latin-regular.woff2") format("woff2"),
+  src: local(''), url('/fonts/rubik-v11-latin-regular.woff2') format('woff2'),
     /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("/fonts/rubik-v11-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+      url('/fonts/rubik-v11-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 @font-face {
-  font-family: "Rubik";
+  font-family: 'Rubik';
   font-style: normal;
   font-weight: 400;
-  src: local(""), url("/fonts/rubik-v11-latin-regular.woff2") format("woff2"),
+  src: local(''), url('/fonts/rubik-v11-latin-regular.woff2') format('woff2'),
     /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("/fonts/rubik-v11-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+      url('/fonts/rubik-v11-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
-
-body {
-  font-family: "Karla", sans-serif;
-  background-color: black !important;
+@font-face {
+  font-family: 'Crystal Sky';
+  src: url('//db.onlinewebfonts.com/t/8af97cecee46cf941adf95ac77ce2ad0.eot');
+  src: url('//db.onlinewebfonts.com/t/8af97cecee46cf941adf95ac77ce2ad0.eot?#iefix')
+      format('embedded-opentype'),
+    url('//db.onlinewebfonts.com/t/8af97cecee46cf941adf95ac77ce2ad0.woff2')
+      format('woff2'),
+    url('//db.onlinewebfonts.com/t/8af97cecee46cf941adf95ac77ce2ad0.woff')
+      format('woff'),
+    url('//db.onlinewebfonts.com/t/8af97cecee46cf941adf95ac77ce2ad0.ttf')
+      format('truetype'),
+    url('//db.onlinewebfonts.com/t/8af97cecee46cf941adf95ac77ce2ad0.svg#')
+      format('svg');
 }
 
-h1 {
-  font-family: "Rubik Mono One", serif;
+// body {
+//   font-family: "Karla", sans-serif;
+
+// }
+
+.font-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2vw !important;
+  color: black;
+  color: transparent;
+  background: #666666;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  text-shadow: 0px 3px 3px rgba(255, 255, 255, 0.5);
+}
+.font-viewport-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 3.5vw;
+  // color: rgb(58, 40, 56);
+  letter-spacing: 1.7vw;
+
+  color: black;
+  color: transparent;
+  background: #381601;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  text-shadow: 0px 3px 3px rgba(223, 207, 138, 0.5);
+
+  // background: #bababa;
 }
 
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Rubik", serif;
+.font-menu-count {
+  font-size: 1.2vw;
+  color: #666666;
+  // color: transparent;
+  // background: #666666;
+  // -webkit-background-clip: text;
+  // -moz-background-clip: text;
+  // background-clip: text;
+  // text-shadow: 0px 3px 3px rgba(255, 255, 255, 0.5);
+}
+.font-menu-section {
+  letter-spacing: 0.1vw;
+  font-size: 1.3vw;
+  color: #666666;
+}
+.font-main-text {
+  font-family: 'Crystal Sky';
+  letter-spacing: 0.1vw;
+  font-size: 1.3vw;
+  color: #260749;
+  color: rgb(3, 105, 105);
+}
+.font-main-title {
+  font-family: 'Crystal Sky';
+  letter-spacing: 0.1vw;
+  font-size: 1.9vw;
+
+  color: #260749;
+  color: rgb(3, 201, 201);
 }

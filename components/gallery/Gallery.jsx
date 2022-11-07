@@ -1,45 +1,56 @@
-// import Link from 'next/link';
-// import { useRef, useEffect } from 'react';
+import Link from 'next/link';
+// import supabase from '../utils/superbaseClient';
+import Layout from '../../components/Layout';
+ import Image from 'next/image';
+export async function getStaticProps() {
+  // const { data } = await supabase.from('gallery').select('*');
+  let { data: gallery, error } = await supabase.from('gallery').select('*');
 
-// import Layout from '../../components/Layout';
+  if (error) {
+    throw new Error(error);
+  }
 
-
-// import Image from 'next/image';
-
-
-// // *********************************************************************
-
-// export async function getStaticProps() {
-//   const response = await fetch(`http://localhost:4001/art`);
-
-//   const data = await response.json();
-
-//   return {
-//     props: { content: data },
-//   };
-// }
-// // *********************************************************************
-// export default function Gallery({ content }) {
-//   // *********************************************************************
+  return {
+    props: {
+      gallery,
+    },
+  };
+}
 
 
+export default function Gallery({ gallery}) {
+  //  console.log(scrollPosition);
+  return (
+    <div
+      className='gallery   d-flex justify-content-around align-items-center'
+      id='02'>
+      {gallery.map((elements) => (
+        <div key={elements.id}>
+          <Link href={`/galleryitem/${elements.id}`} className='gallery-link'>
+            <a>
+              <div
+                key={elements.id}
+                className='gallery-element  p-2 d-flex align-items-center'>
+                <div className='gallery-text col-3 '>
+                  <h3 className='font-title text-uppercase'>
+                    {elements.title}
+                  </h3>
+                </div>
+                <div className='gallery-image border col-9'>
+                  <img
+                    src={`/images/${elements.image}`}
+                    width='100%'
+                    height='auto'
+                    alt='image autor'
+                  />
+                </div>
+              </div>
+            </a>
+          </Link>
+        </div>
+      ))}
 
-
-  
-
-//   // console.log(content);
-//   return (
-//     <div className='gallery border'>
-//       {content.map((elements) => (
-//         <div key={elements.id}>
-//           <Link href={`/gallery/${elements.id}`}>
-//             <a>
-//               <img src={elements.img} width='150' />
-//             </a>
-//           </Link>
-//           <h2> {elements.title}</h2>
-//         </div>
-//       ))}
-//     </div>
-//   );
-// }
+     
+    </div>
+  );
+}
